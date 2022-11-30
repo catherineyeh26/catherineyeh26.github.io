@@ -12,6 +12,14 @@
 
 }
 
+.teapage {
+    position: relative;
+    width: 95%;
+    height: 150vh;
+
+}
+
+
 #teas {
     position: relative;
     width: auto;
@@ -27,16 +35,12 @@
 
 }
 
-.colordots .color {
-    display: flex;
+.colors {
+    display: block;
 }
 
-.hidden {
-    opacity: 0;
-}
-
-.introductions {
-    display: flex;
+.intro {
+    display: none;
 }
 
 .intro {
@@ -44,6 +48,11 @@
     top:auto;
     left: auto;
 }
+
+.visible {
+    display: block;
+}
+
 h3 {
     font-size: 32px;
     font-family: 'Slabo 13px';
