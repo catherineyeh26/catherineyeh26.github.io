@@ -28,6 +28,16 @@ document.getElementById("chamomile_color").onmouseout = () => { toggleColor("cha
 document.getElementById("peppermint_color").onmouseout = () => { toggleColor("peppermint") };
 
 
+
+new TypeIt("#choice", {
+    speed: 20,
+    loop: false,
+    afterComplete: function (step, instance) {
+        instance.destroy();
+    }
+}).go();
+
+
 // colordots: position absolute
 // hw 9(from week 9)
 

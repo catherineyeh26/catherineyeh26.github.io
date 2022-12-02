@@ -12,6 +12,11 @@
 
 }
 
+body {
+    margin: 0;
+    background: #E6EDE2;
+}
+
 
 #colordots {
     position: relative;
@@ -70,23 +75,23 @@
 
 #colordots .white {
     top: 50px;
-    left: 100px;
 }
+
 #colordots .green {
-    top: 300px;
-    left: 100px;
+    top: 130px;
 }
 #colordots .black {
-    top: 600px;
-    left: 100px;
+    top: 210px;
 }
 #colordots .chamomile {
-    top: 900px;
-    left: 100px;
+    top: 300px;
 }
 #colordots .peppermint {
-    top: 1100px;
-    left: 100px;
+    top: 370px;
+}
+
+.colors {
+    left: 40px;
 }
 
 

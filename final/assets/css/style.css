@@ -11,6 +11,12 @@
     align-items: center;
 }
 
+body {
+    margin: 0;
+    background: #E6EDE2;
+}
+
+
 #title {
     position: relative;
     width: 800px;
