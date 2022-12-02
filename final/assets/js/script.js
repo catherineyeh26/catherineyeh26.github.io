@@ -30,7 +30,7 @@ document.getElementById("peppermint_color").onmouseout = () => { toggleColor("pe
 
 
 new TypeIt("#choice", {
-    speed: 20,
+    speed: 5,
     loop: false,
     afterComplete: function (step, instance) {
         instance.destroy();
@@ -38,6 +38,5 @@ new TypeIt("#choice", {
 }).go();
 
 
-// colordots: position absolute
-// hw 9(from week 9)
+
 
